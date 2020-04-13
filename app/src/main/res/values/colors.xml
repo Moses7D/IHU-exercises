@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E7FDBA</color>
+    <color name="colorPrimaryDark">#A3B383</color>
+    <color name="colorAccent">#FFCFFF</color>
+    <color name="colorActivity01">#A42566</color>
+    <color name="colorActivity02">#D4ADFA</color>
+    <color name="colorFragmentMain">#AEB7FD</color>
+    <color name="colorFragmentFirst">#F1B9D2</color>
+    <color name="colorFragmentSecond">#FFD8B9</color>
+</resources>

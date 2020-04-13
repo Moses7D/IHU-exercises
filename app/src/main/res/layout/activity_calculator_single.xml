@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".set01.CalculatorSingleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/operand01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0.0"
+            android:inputType="numberDecimal"/>
+
+        <ImageView
+            android:id="@+id/addBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="add"/>
+
+        <EditText
+            android:id="@+id/operand02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0.0"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/outputCont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="output" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
