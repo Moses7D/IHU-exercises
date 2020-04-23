@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="form01_01nameH">Πλήρες Όνομα</string>
+    <string name="form01_02phNumH">Αριθμός Τηλεφώνου</string>
+    <string name="form01_butM">Υποβολή</string>
+    <string name="form01_01nameErr01">Συμπληρώστε το όνομά σας</string>
+    <string name="form01_02phNumErr01">Συμπληρώστε τον αριθμό τηλεφώνου σας</string>
+    <string name="form01_GErr01">Χρειάζονται τουλάχιστον %1$d %2$s</string>
+    <string name="form01_GErr01Sup01C">χαρακτήρες</string>
+    <string name="form01_GErr01Sup02D">ψηφεία</string>
+</resources>

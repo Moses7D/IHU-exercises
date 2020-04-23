@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActivity01"
+    tools:context=".set02.ColorMixerActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vguideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vguideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vguideline50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vguideline60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vguideline70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <Switch
+        android:id="@+id/swRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:text="Red"
+        android:textColor="@color/textLight"
+        app:layout_constraintBottom_toTopOf="@+id/vguideline40"
+        app:layout_constraintEnd_toStartOf="@+id/hguideline60"
+        app:layout_constraintStart_toStartOf="@+id/hguideline40"
+        app:layout_constraintTop_toTopOf="@+id/vguideline30" />
+
+    <Switch
+        android:id="@+id/swGr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="Green"
+        app:layout_constraintBottom_toTopOf="@+id/vguideline60"
+        app:layout_constraintEnd_toStartOf="@+id/hguideline40"
+        app:layout_constraintStart_toStartOf="@+id/hguideline20"
+        app:layout_constraintTop_toTopOf="@+id/vguideline50" />
+
+    <Switch
+        android:id="@+id/swBl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:text="Blue"
+        android:textColor="@color/textLight"
+        app:layout_constraintBottom_toBottomOf="@+id/swGr"
+        app:layout_constraintEnd_toStartOf="@+id/hguideline80"
+        app:layout_constraintStart_toStartOf="@+id/hguideline60" />
+
+    <TextView
+        android:id="@+id/colorP"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/def"
+        app:layout_constraintBottom_toTopOf="@+id/vguideline60"
+        app:layout_constraintEnd_toStartOf="@+id/hguideline60"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/hguideline40"
+        app:layout_constraintTop_toTopOf="@+id/vguideline40"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <CheckBox
+        android:id="@+id/chBM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/magenta"
+        android:text="Magenta"
+        app:layout_constraintBottom_toTopOf="@+id/vguideline50"
+        app:layout_constraintEnd_toStartOf="@+id/hguideline40"
+        app:layout_constraintStart_toStartOf="@+id/hguideline20"
+        app:layout_constraintTop_toTopOf="@+id/vguideline40" />
+
+    <CheckBox
+        android:id="@+id/chBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cyan"
+        android:text="Cyan"
+        app:layout_constraintBottom_toBottomOf="@+id/chBM"
+        app:layout_constraintEnd_toStartOf="@+id/hguideline80"
+        app:layout_constraintStart_toStartOf="@+id/hguideline60" />
+
+    <CheckBox
+        android:id="@+id/chBY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="Yellow"
+        app:layout_constraintBottom_toTopOf="@+id/vguideline70"
+        app:layout_constraintEnd_toStartOf="@+id/hguideline60"
+        app:layout_constraintStart_toStartOf="@+id/hguideline40"
+        app:layout_constraintTop_toTopOf="@+id/vguideline60" />
+</androidx.constraintlayout.widget.ConstraintLayout>

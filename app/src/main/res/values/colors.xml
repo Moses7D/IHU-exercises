@@ -3,9 +3,17 @@
     <color name="colorPrimary">#E7FDBA</color>
     <color name="colorPrimaryDark">#A3B383</color>
     <color name="colorAccent">#FFCFFF</color>
-    <color name="colorActivity01">#A42566</color>
+    <color name="colorActivity01">#C4FEFF</color>
     <color name="colorActivity02">#D4ADFA</color>
     <color name="colorFragmentMain">#AEB7FD</color>
     <color name="colorFragmentFirst">#F1B9D2</color>
     <color name="colorFragmentSecond">#FFD8B9</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="textLight">#FFFFFF</color>
+    <color name="def">#FFFFFF</color>
 </resources>

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">IHU Exercises</string>
+    <string name="app_name" translatable="false">IHU Exercises</string>
 
-    <string name="firstFragText">Lorem Ipsum</string>
-    <string name="secondFragText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pulvinar mattis arcu, porta lobortis libero ullamcorper vitae. Suspendisse tempus maximus libero vitae volutpat. Sed eu elementum nisl, at auctor enim. Sed et urna rhoncus, semper mi vel, volutpat eros. Nullam pretium velit ipsum, aliquet dignissim justo venenatis nec. Integer quis lacus diam. Nullam lacinia, eros sit amet ultricies semper, augue justo mollis tortor, sed cursus libero mi a nisi. Cras tempus tincidunt dui. Praesent porttitor nisl magna, non euismod tortor scelerisque ac. Maecenas ut neque fringilla, elementum tortor quis, elementum sapien. Nunc mattis elementum commodo. Donec vitae massa eget dui congue sollicitudin. Pellentesque tempor sem a nisl blandit, bibendum eleifend ex porttitor.
+    <string name="firstFragText" translatable="false">Lorem Ipsum</string>
+    <string name="secondFragText" translatable="false"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pulvinar mattis arcu, porta lobortis libero ullamcorper vitae. Suspendisse tempus maximus libero vitae volutpat. Sed eu elementum nisl, at auctor enim. Sed et urna rhoncus, semper mi vel, volutpat eros. Nullam pretium velit ipsum, aliquet dignissim justo venenatis nec. Integer quis lacus diam. Nullam lacinia, eros sit amet ultricies semper, augue justo mollis tortor, sed cursus libero mi a nisi. Cras tempus tincidunt dui. Praesent porttitor nisl magna, non euismod tortor scelerisque ac. Maecenas ut neque fringilla, elementum tortor quis, elementum sapien. Nunc mattis elementum commodo. Donec vitae massa eget dui congue sollicitudin. Pellentesque tempor sem a nisl blandit, bibendum eleifend ex porttitor.
 
 Sed pretium ut justo eu aliquet. Etiam pulvinar in libero in gravida. Nullam rutrum felis sit amet scelerisque convallis. Nullam in bibendum urna, vel faucibus purus. Aenean tincidunt, magna sed mollis sodales, libero sapien fermentum nunc, ac sagittis diam dolor id leo. Donec tristique enim eu magna bibendum, at ultrices odio commodo. Phasellus malesuada, lectus sed viverra scelerisque, lacus eros tempor sapien, vitae dictum erat arcu eget lectus. Suspendisse euismod leo et arcu sollicitudin pretium at id leo. Nullam sed vehicula enim. Cras varius vulputate hendrerit. Mauris porta, nunc eget pellentesque egestas, orci augue hendrerit elit, eu accumsan nunc lorem rutrum lorem.
 
@@ -18,9 +18,9 @@ Cras nec lacus sollicitudin, auctor justo in, dapibus lorem. Praesent iaculis eg
     <string name="artBodJava">Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub particularly for client-server web applications, with a reported 9 million developers.</string>
     <string name="artBodKotlin">Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of its standard library depends on the Java Class Library, but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript or native code (via LLVM). Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark.</string>
     <string name="artBodPython">Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python\'s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</string>
-    <string name="artTitlJava">Java</string>
-    <string name="artTitlKotlin">Kotlin</string>
-    <string name="artTitlPython">Python</string>
+    <string name="artTitlJava" translatable="false">Java</string>
+    <string name="artTitlKotlin" translatable="false">Kotlin</string>
+    <string name="artTitlPython" translatable="false">Python</string>
     <string-array name="cocoNames">
         <item>person</item>
         <item>bicycle</item>
@@ -102,5 +102,21 @@ Cras nec lacus sollicitudin, auctor justo in, dapibus lorem. Praesent iaculis eg
         <item>teddy bear</item>
         <item>hair drier</item>
         <item>toothbrush</item>
+    </string-array>
+
+    <string name="form01_01nameH">Full Name</string>
+    <string name="form01_02phNumH">Phone Number</string>
+    <string name="form01_butM">Submit</string>
+    <string name="form01_01nameErr01">Fill in your full name</string>
+    <string name="form01_02phNumErr01">Fill in your phone number</string>
+    <string name="form01_GErr01">Minimum of %1$d %2$s</string>
+    <string name="form01_GErr01Sup01C">characters</string>
+    <string name="form01_GErr01Sup02D">digits</string>
+    
+    <string-array translatable="false" name="supportedOperators">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
     </string-array>
 </resources>
