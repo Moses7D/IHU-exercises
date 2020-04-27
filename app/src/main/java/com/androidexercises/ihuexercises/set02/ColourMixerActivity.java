@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.androidexercises.ihuexercises.R;
 
-public class ColorMixerActivity extends AppCompatActivity {
+public class ColourMixerActivity extends AppCompatActivity {
     CheckBox chM,chC,chY;
     Switch swR,swG,swB;
     TextView output;

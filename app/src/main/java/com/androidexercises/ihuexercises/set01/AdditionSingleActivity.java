@@ -2,23 +2,28 @@ package com.androidexercises.ihuexercises.set01;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
+
 import com.androidexercises.ihuexercises.R;
 
-public class CalculatorMutliFirstActivity extends AppCompatActivity {
-    public static final String EXTRA_SUM = "com.androidexercises.teitheexercises.set01.SUM";
+public class AdditionSingleActivity extends AppCompatActivity {
+    EditText oper01;
+    EditText oper02;
+    TextView output;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculator_mutli_first);
+        setContentView(R.layout.activity_calculator_single);
+        oper01 = findViewById(R.id.operand01);
+        oper02 = findViewById(R.id.operand02);
+        output = findViewById(R.id.outputCont);
     }
 
-    public void addAndSend(View v) {
-        EditText oper01 = findViewById(R.id.operand01);
-        EditText oper02 = findViewById(R.id.operand02);
+    public void add(View v) {
         double num01=0.0, num02=0.0, addition=0.0;
         try{
             num01 = Double.parseDouble(oper01.getText().toString());
@@ -31,8 +36,6 @@ public class CalculatorMutliFirstActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         double addedN = num01+num02;
-        Intent calcSexondInt = new Intent(this, CalculatorMutliSecondActivity.class);
-        calcSexondInt.putExtra(EXTRA_SUM,addedN);
-        startActivity(calcSexondInt);
+        output.setText(Double.toString(addedN));
     }
 }

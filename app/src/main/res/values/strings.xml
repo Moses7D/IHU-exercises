@@ -112,11 +112,14 @@ Cras nec lacus sollicitudin, auctor justo in, dapibus lorem. Praesent iaculis eg
     <string name="form01_GErr01">Minimum of %1$d %2$s</string>
     <string name="form01_GErr01Sup01C">characters</string>
     <string name="form01_GErr01Sup02D">digits</string>
-    
-    <string-array translatable="false" name="supportedOperators">
+
+    <string-array name="supportedOperators" translatable="false">
         <item>+</item>
         <item>-</item>
         <item>*</item>
         <item>/</item>
     </string-array>
+
+    <string name="urlExample" translatable="false">www.example.com</string>
+    <string name="browseBText">Search</string>
 </resources>

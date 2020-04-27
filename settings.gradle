@@ -1,2 +1,2 @@
 rootProject.name='IHU Exercises'
-include ':app'
+include ':app', ':exp4j'

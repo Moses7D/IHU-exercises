@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 import com.androidexercises.ihuexercises.R;
 
-public class CalculatorMutliSecondActivity extends AppCompatActivity {
+public class AdditionMutliVSecondActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,6 @@ public class CalculatorMutliSecondActivity extends AppCompatActivity {
         TextView output;
         output = findViewById(R.id.outputCont);
         Intent startingInt = getIntent();
-        output.setText(Double.toString(startingInt.getDoubleExtra(CalculatorMutliFirstActivity.EXTRA_SUM, 0.0)));
+        output.setText(Double.toString(startingInt.getDoubleExtra(AdditionMutliVFirstActivity.EXTRA_SUM, 0.0)));
     }
 }

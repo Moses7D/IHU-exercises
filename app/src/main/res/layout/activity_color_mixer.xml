@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorActivity01"
-    tools:context=".set02.ColorMixerActivity">
+    tools:context=".set02.ColourMixerActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/hguideline20"

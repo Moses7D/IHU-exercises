@@ -8,4 +8,6 @@
     <string name="form01_GErr01">Χρειάζονται τουλάχιστον %1$d %2$s</string>
     <string name="form01_GErr01Sup01C">χαρακτήρες</string>
     <string name="form01_GErr01Sup02D">ψηφεία</string>
+
+    <string name="browseBText">Αναζήτηση</string>
 </resources>
