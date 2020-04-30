@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/openHome"
+        android:icon="@mipmap/baseline_home_black_48"/>
+    <item android:title="Calculator"
+        android:id="@+id/openCalc"
+        android:icon="@mipmap/baseline_functions_black_48"/>
+    <item android:title="Web"
+        android:id="@+id/openBrowser"
+        android:icon="@mipmap/baseline_web_black_48"/>
+</menu>
