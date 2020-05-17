@@ -12,10 +12,10 @@ import com.androidexercises.ihuexercises.R;
 import java.util.List;
 
 public class RecyclerListAdapter extends RecyclerView.Adapter<RecyclerListAdapter.ListItemHolder> {
-    private List<String> cocoNamesList;
+    private List<String> data;
 
-    public RecyclerListAdapter(List<String> cocoNamesList) {
-        this.cocoNamesList = cocoNamesList;
+    public RecyclerListAdapter(List<String> data) {
+        this.data = data;
     }
 
     @NonNull
@@ -28,12 +28,12 @@ public class RecyclerListAdapter extends RecyclerView.Adapter<RecyclerListAdapte
 
     @Override
     public void onBindViewHolder(@NonNull ListItemHolder holder, int position) {
-        holder.setText(cocoNamesList.get(position));
+        holder.setText(data.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return cocoNamesList.size();
+        return data.size();
     }
 
     public static class ListItemHolder extends RecyclerView.ViewHolder {
